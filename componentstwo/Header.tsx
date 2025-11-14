@@ -1,3 +1,4 @@
+'use client';
 import React, { useState } from 'react';
 
 const Header = () => {
@@ -65,12 +66,14 @@ const Header = () => {
           
           {/* CTA Button */}
           <div className="hidden md:block">
-            <button 
-              onClick={() => scrollToSection('contact')}
+            <a href="/contact">
+               <button 
               className="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition-colors font-semibold"
             >
               Nous contacter
             </button>
+            </a>
+           
           </div>
           
           {/* Mobile menu button */}
@@ -133,12 +136,14 @@ const Header = () => {
             
             {/* Mobile CTA Button */}
             <div className="pt-6">
-              <button 
+              <a href="/contact">
+                 <button 
                 className="w-full bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800 transition-colors text-lg font-medium"
-                onClick={() => scrollToSection('contact')}
               >
                 Nous contacter
               </button>
+              </a>
+             
             </div>
           </div>
         </div>

@@ -97,10 +97,13 @@ const ServicesCarousel = () => {
               Positionnez votre site en première page de Google et augmentez 
               votre trafic organique de manière durable.
             </p>
-            <div className="flex items-center text-green-600 font-medium group-hover:text-green-700 transition-colors">
+           
+            <Link href="/services/seo-referencement">
+            <div className="flex items-center text-green-600 font-medium group-hover:text-green-700 transition-colors cursor-pointer">
               <span>En savoir plus</span>
               <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
             </div>
+          </Link>
           </div>
 
           {/* Social Media Service */}
@@ -113,10 +116,12 @@ const ServicesCarousel = () => {
               Créez une communauté engagée autour de votre marque et 
               générez des leads qualifiés via les réseaux sociaux.
             </p>
-            <div className="flex items-center text-green-600 font-medium group-hover:text-green-700 transition-colors">
+              <Link href="/services/social-media">
+            <div className="flex items-center text-green-600 font-medium group-hover:text-green-700 transition-colors cursor-pointer">
               <span>En savoir plus</span>
               <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
             </div>
+          </Link>
           </div>
 
           {/* Google Ads Service */}
@@ -129,10 +134,13 @@ const ServicesCarousel = () => {
               Maximisez votre ROI avec des campagnes publicitaires 
               ciblées et optimisées pour la conversion.
             </p>
-            <div className="flex items-center text-green-600 font-medium group-hover:text-green-700 transition-colors">
+
+             <Link href="/services/google-adds">
+            <div className="flex items-center text-green-600 font-medium group-hover:text-green-700 transition-colors cursor-pointer">
               <span>En savoir plus</span>
               <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
             </div>
+          </Link>
           </div>
 
           {/* Analytics Service */}
@@ -145,10 +153,12 @@ const ServicesCarousel = () => {
               Prenez des décisions éclairées grâce à des analyses 
               approfondies de vos performances digitales.
             </p>
-            <div className="flex items-center text-green-600 font-medium group-hover:text-green-700 transition-colors">
+              <Link href="/services/analytics-data">
+            <div className="flex items-center text-green-600 font-medium group-hover:text-green-700 transition-colors cursor-pointer">
               <span>En savoir plus</span>
               <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
             </div>
+          </Link>
           </div>
 
           {/* Content Marketing Service */}
@@ -161,10 +171,12 @@ const ServicesCarousel = () => {
               Créez du contenu engageant qui convertit vos visiteurs 
               en clients fidèles et ambassadeurs de votre marque.
             </p>
-            <div className="flex items-center text-green-600 font-medium group-hover:text-green-700 transition-colors">
+              <Link href="/services/marketing-content">
+            <div className="flex items-center text-green-600 font-medium group-hover:text-green-700 transition-colors cursor-pointer">
               <span>En savoir plus</span>
               <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
             </div>
+          </Link>
           </div>
 
           {/* Web Development Service */}
@@ -177,10 +189,12 @@ const ServicesCarousel = () => {
               Sites web performants et optimisés pour la conversion, 
               conçus pour offrir une expérience utilisateur exceptionnelle.
             </p>
-            <div className="flex items-center text-green-600 font-medium group-hover:text-green-700 transition-colors">
+              <Link href="/services/developpement-web">
+            <div className="flex items-center text-green-600 font-medium group-hover:text-green-700 transition-colors cursor-pointer">
               <span>En savoir plus</span>
               <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
             </div>
+          </Link>
           </div>
         </div>
 

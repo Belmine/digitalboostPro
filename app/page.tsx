@@ -15,7 +15,6 @@ import "../styles/globals.css"
 const App = () => {
   return (
     <>
-      <Header />
       
       <div id="hero">
         <HeroSection />
@@ -37,9 +36,7 @@ const App = () => {
         <TestimonialsSection />
       </div>
       
-      <div id="contact">
-        <Footer />
-      </div>
+      
     </>
   );
 }
